@@ -43,17 +43,23 @@ The dataset consists of **16,598** records, covering sales data from different *
 
 ## 📁 Folder Structure
 ```
-VG_Sales_Project/
+VG_Sales_Analytics/
 │-- data/
-│   ├── VG_Sales.pbix          # Power BI file
-│   ├── VGSales_ss.png         # Dashboard screenshot
-│-- docs/
-│   ├── readme.md              # Project documentation
-│-- reports/
-│   ├── analysis_report.pdf    # Additional reports (if applicable)
+│   ├── VG_Sales.csv                 # Raw dataset
+│   ├── cleaned_VG_Sales.csv          # Processed dataset
 │-- scripts/
-│   ├── data_cleaning.py       # Data processing scripts (if applicable)
-```
+│   ├── data_cleaning.py              # Cleans and preprocesses the dataset
+│   ├── exploratory_analysis.py        # Exploratory Data Analysis (EDA)
+│   ├── sales_trends.py                # NEW: Sales trends analysis
+│   ├── platform_analysis.py           # NEW: Platform-wise sales comparison
+│   ├── forecasting.py                 # Improved: ML-based forecasting
+│-- reports/
+│   ├── insights_report.md            # Summary of insights & findings
+│-- visualizations/
+│   ├── VG_Sales.pbix                 # Power BI report
+│   ├── VGSales_ss.png                 # Power BI dashboard screenshot
+│-- .gitattributes                     # Ensures GitHub detects Python & CSV files
+│-- README.md                          # Documentation
 
 ---
 
